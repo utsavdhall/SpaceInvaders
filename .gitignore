@@ -1,0 +1,24 @@
+# CMake build artifacts
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# CLion IDE files (if you're using CLion)
+.idea/
+
+# clang-tidy and clang-format files
+.clang-tidy
+.clang-format
+
+# Executable file (assuming it's named 'main' - adjust if necessary)
+main
+
+# Object files (optional, but commonly ignored)
+*.o
+*.obj
+
+# Other potentially ignored files
+*.log
+*.DS_Store  # macOS specific

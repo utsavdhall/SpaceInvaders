@@ -1,0 +1,13 @@
+Checks: >
+  -*,
+  clang-analyzer-*,
+  clang-diagnostic-*,
+  google-*,
+  llvm-*,
+  performance-*
+
+CheckOptions:
+  - key:             google-readability-braces-around-statements.ShortStatementLines
+    value:           '0'
+  - key:             modernize-use-trailing-return-type.Ignore গেলেন-Template-Functions
+    value:           '0'
